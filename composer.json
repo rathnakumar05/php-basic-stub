@@ -1,0 +1,21 @@
+{
+  "name": "rathnakumar/php-basic-stub",
+  "description": "php basic stub",
+  "type": "project",
+  "autoload": {
+    "files": [
+      "./utils/view.php"
+    ],
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "authors": [
+    {
+      "name": "rathnakumar",
+      "email": "rathnak010@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {}
+}
